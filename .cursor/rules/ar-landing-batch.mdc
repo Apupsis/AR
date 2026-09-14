@@ -1,0 +1,28 @@
+---
+description: AR landing batch intake — structure, scope, git hygiene
+globs: all/**
+alwaysApply: true
+---
+
+# AR landing batches
+
+## Scope
+
+- Work only inside the requested dated batch (`all/<date>/… part-1` or `part-2`). Do not mix parts blindly.
+- Sites live at `<domain>/public/`. Prefer edits to `public/assets/css/style.css`.
+- This repo has **no** landing HTML/CSS generator. Do not search for templates to “fix at source” unless the user points to another repo.
+
+## Hygiene
+
+- Do **not** add `/* QA-FIX */` tails or nuclear `!important` CTA overrides. Fold contrast/hover into normal cascade (`a.class:hover` beats global `a:hover`).
+- Do **not** invent Playwright/`_qa_*.py` inside the batch; use skill `run_batch_qa.py`.
+- Probe / one-shot JSON (`_qa-contrast-w*.json`, `*-verify.json`, fail probes) — **do not commit** unless asked. Canonical `_qa-*-results.json` / reports only when already tracked or explicitly requested.
+- No unbidden `git push`, zip rebuild, or HTML rewrites for color/overflow.
+
+## Prevention (next deliveries / upstream)
+
+When advising generator owners (not editing code here unless asked):
+
+1. Mid-tone primary + dark on-accent → darker primary + `#ffffff`
+2. Honeypot: clip / `.form-honeypot`, not `left:-9999`
+3. Header flex: `min-width: 0`, `max-width: min(1440px, 100%)`

@@ -1,0 +1,28 @@
+---
+description: CSS hard rules for AR landing CTA contrast and overflow
+globs: "**/public/assets/css/style.css"
+alwaysApply: false
+---
+
+# AR landing CSS (buttons / pages QA)
+
+Use skill **`auditing-landing-batch-pages-buttons`** + `run_batch_qa.py` for evidence. CSS-only unless the user asks for HTML.
+
+## Do
+
+- Solid primary fills: ensure AA (≥4.5:1). Mid-tone fills (`#059669`, `#0891b2`, `#0d9488`, …) + dark on-accent → **darken fill** and set on-accent / text to `#ffffff`.
+- Per-variant hover `color` + `text-decoration: none` so global `a:hover` does not wash CTAs.
+- Prefer `a.ctaClass:hover { … }` (no `!important`) after conflicting `a:hover` rules.
+- Overflow: fix offenders (flex `min-width: 0`, honeypot clip). Confirm drawer still opens.
+
+## Don't
+
+- Blanket `.baseCta { color: #fff !important }` on shared base classes (breaks outline/ghost variants).
+- White text on still-light primary (~3.5–4.4:1).
+- `overflow-x: hidden` as the only `can_scroll_x` fix.
+- Ship or claim done while contrast/visual JSON still has fails.
+- Leave `/* QA-FIX */` or duplicate `!important` CTA appendages in production CSS.
+
+## Done gate
+
+`unique_btn_fails=0`, visual `page_fails=[]`, rtl clean, report synced when claiming batch QA complete.
