@@ -14,7 +14,7 @@
 | [ ] | counterattack.space          | 1    |      |       |
 | [ ] | croquet-eg.space            | 1    |      |       |
 | [ ] | driftpromotion.space        | 1    |      |       |
-| [ ] | equestrian-care.com       | 1    |      |       |
+| [ ] | equestrian-care.space       | 1    |      |       |
 | [ ] | equestrian-club.com       | 1    |      |       |
 | [ ] | equestrian-trail.space      | 1    |      |       |
 | [ ] | haraka-risha.space          | 1    |      |       |
