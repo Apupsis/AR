@@ -161,7 +161,11 @@ p { color: var(--ink-2); }
   transition: .2s var(--ease);
 }
 
-.header-kart-pit-cta-button:hover { background: var(--blue-2); }
+.header-kart-pit-cta-button:hover {
+  background: var(--blue-2);
+  color: #fff;
+  text-decoration: none;
+}
 
 .header-kart-pit-mobile-toggle {
   display: none;
@@ -259,10 +263,18 @@ body.nav-locked { overflow: hidden; }
 .btn-primary,
 [class*="cta-button"]:not([class*="header-"]):not([class*="secondary"]) { background: var(--blue); color: #fff; }
 .btn-primary:hover,
-[class*="cta-button"]:not([class*="header-"]):not([class*="secondary"]):hover { background: var(--blue-2); }
+[class*="cta-button"]:not([class*="header-"]):not([class*="secondary"]):hover {
+  background: var(--blue-2);
+  color: #fff;
+  text-decoration: none;
+}
 
-[class*="cta-button-secondary"] { background: transparent; color: var(--blue); border-color: var(--blue); }
-[class*="cta-button-secondary"]:hover { background: var(--blue-soft); }
+[class*="cta-button-secondary"] { background: transparent !important; color: var(--blue); border: 1px solid var(--blue); }
+[class*="cta-button-secondary"]:hover {
+  background: var(--blue-soft);
+  color: var(--blue);
+  text-decoration: none;
+}
 
 [class*="card-link"],
 [class*="cta-link"] {
@@ -909,7 +921,7 @@ main p + p { margin-top: .95rem; }
 .tk-field ::placeholder { color: var(--ink-3); }
 .tk-form-note { font-size: .83rem; color: var(--ink-3); }
 .tk-form-note a { color: var(--blue); border-bottom: 1px solid var(--yellow); }
-.tk-honeypot { position: absolute; left: -9999px; opacity: 0; height: 0; }
+.tk-honeypot { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0; opacity: 0; }
 
 .tk-aside { display: grid; gap: 1rem; }
 .tk-info-card { background: var(--surface); border: 1px solid var(--line); border-radius: var(--r-md); padding: 1.4rem; }
@@ -1114,7 +1126,11 @@ main p + p { margin-top: .95rem; }
 .tk-cta-band h2 { color: #fff; }
 .tk-cta-band p { color: #b9bec6; max-width: 56ch; margin: .8rem auto 1.6rem; }
 .tk-cta-band .btn-primary { background: var(--yellow); color: var(--ink); }
-.tk-cta-band .btn-primary:hover { background: #ffc843; }
+.tk-cta-band .btn-primary:hover {
+  background: #ffc843;
+  color: var(--ink);
+  text-decoration: none;
+}
 
 @media (max-width: 900px) { .tk-hero-grid { grid-template-columns: 1fr; } }
 
@@ -1143,6 +1159,11 @@ main p + p { margin-top: .95rem; }
 #cookieBanner p { font-size: .89rem; flex: 1 1 250px; }
 .tk-cookie-actions { display: flex; gap: .6rem; }
 .tk-cookie-accept { padding: .5rem 1.15rem; border-radius: var(--r); background: var(--blue); color: #fff; font-family: var(--font-head); font-weight: 600; font-size: .87rem; }
+.tk-cookie-accept:hover {
+  background: var(--blue-2);
+  color: #fff;
+  text-decoration: none;
+}
 .tk-cookie-decline { padding: .5rem 1.15rem; border-radius: var(--r); border: 1px solid var(--line-strong); color: var(--ink-2); font-size: .87rem; }
 
 /* ==========================================================================
@@ -1314,3 +1335,63 @@ body.nav-locked::after {
 }
 
 .header-kart-pit-mobile-menu { box-shadow: var(--shadow); }
+
+
+.portfolio-cta-button-secondary:hover,
+[class*="cta-button-secondary"]:hover {
+  background: var(--blue-soft) !important;
+  color: var(--blue);
+  text-decoration: none;
+}
+
+
+[class*="portfolio-cta-button-secondary"],
+.btn[class*="secondary"] {
+  background: transparent !important;
+  color: var(--blue) !important;
+  border: 1px solid var(--blue) !important;
+}
+
+[class*="portfolio-cta-button-secondary"]:hover {
+  background: var(--blue-soft) !important;
+  color: var(--blue) !important;
+  text-decoration: none !important;
+}
+
+
+/* QA-FIX secondary CTA */
+a.portfolio-cta-button-secondary,
+.portfolio-cta-button.portfolio-cta-button-secondary,
+[class*="portfolio-cta-button-secondary"] {
+  background: transparent !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  color: var(--blue) !important;
+  border: 1px solid var(--blue) !important;
+}
+a.portfolio-cta-button-secondary:hover,
+.portfolio-cta-button.portfolio-cta-button-secondary:hover,
+[class*="portfolio-cta-button-secondary"]:hover {
+  background: var(--blue-soft) !important;
+  background-color: var(--blue-soft) !important;
+  color: var(--blue) !important;
+  text-decoration: none !important;
+}
+
+
+/* QA-FIX secondary CTA v2 */
+a[class*="portfolio-cta-button"][class*="secondary"],
+a.portfolio-cta-button-secondary {
+  background: #f7f5f1 !important;
+  background-color: #f7f5f1 !important;
+  background-image: none !important;
+  color: #1d4e89 !important;
+  border: 1px solid #1d4e89 !important;
+}
+a[class*="portfolio-cta-button"][class*="secondary"]:hover,
+a.portfolio-cta-button-secondary:hover {
+  background: #dbe7f5 !important;
+  background-color: #dbe7f5 !important;
+  color: #1d4e89 !important;
+  text-decoration: none !important;
+}
