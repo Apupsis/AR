@@ -47,7 +47,7 @@ Sites: **25** | Pages: **425** (17 × 25) | CTA classes inventoried: **560**
 | aldawaran.online | 17/17 | header flex overflow fixed; primary AA |
 | alphadriver.space | 17/17 | html RTL |
 | alresha-academy.space | 17/17 | RTL + FAQ `.me79` + purple CTA white |
-| counterattack.space | 17/17 | RTL |
+| hijom-academy.space | 17/17 | RTL |
 | croquet-eg.space | 17/17 | cookie `.od41`; teal primary AA |
 | driftpromotion.space | 17/17 | honeypot; link-style hero CTAs OK |
 | equestrian-care.space | 17/17 | |

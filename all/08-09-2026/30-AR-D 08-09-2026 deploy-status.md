@@ -11,7 +11,7 @@
 | [x] | aldawaran.online          | 1    |      | zom-2 |
 | [x] | alphadriver.space         | 1    |      | zom-2 |
 | [x] | alresha-academy.space     | 1    |      | zom-2 |
-| [ ] | counterattack.space          | 1    |      |       |
+| [ ] | hijom-academy.space          | 1    |      |       |
 | [ ] | croquet-eg.space            | 1    |      |       |
 | [ ] | driftpromotion.space        | 1    |      |       |
 | [ ] | equestrian-care.space       | 1    |      |       |
