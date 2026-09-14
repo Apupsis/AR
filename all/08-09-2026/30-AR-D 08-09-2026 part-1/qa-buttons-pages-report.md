@@ -51,7 +51,7 @@ Sites: **25** | Pages: **425** (17 × 25) | CTA classes inventoried: **560**
 | croquet-eg.space | 17/17 | cookie `.od41`; teal primary AA |
 | driftpromotion.space | 17/17 | honeypot; link-style hero CTAs OK |
 | equestrian-care.space | 17/17 | |
-| equestrian-club.com | 17/17 | RTL |
+| equestrian-club.site | 17/17 | RTL |
 | equestrian-trail.space | 17/17 | |
 | haraka-risha.space | 17/17 | outline hover colors |
 | liberodefense.space | 17/17 | hero `.h82`, cookie `.ida5d`, palette |
