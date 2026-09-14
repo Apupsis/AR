@@ -42,7 +42,7 @@ Sites: **25** | Pages: **425** (17 × 25) | CTA classes inventoried: **560**
 
 | Site | Pages OK | Notes |
 |------|----------|-------|
-| academyelnahm.eg | 17/17 | RTL fixed |
+| academyelnahm.site | 17/17 | RTL fixed |
 | akhdaralmaale.eg | 17/17 | honeypot overflow fixed |
 | aldawaran.info | 17/17 | header flex overflow fixed; primary AA |
 | alphadriver.eg | 17/17 | html RTL |
