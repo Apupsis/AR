@@ -21,7 +21,7 @@ Sites: **25** | Pages: **425** (17 × 25) | CTA classes inventoried: **560**
 - **Hover CTA** (from prior + this pass): explicit `color` + `text-decoration: none` on solid/outline CTAs so global `a:hover` does not wash out text.
 
 ### Semantic cohort (4)
-- **akhdaralmaale.space, driftpromotion.com, masmaralsuraa.com, tritonkart.eg**: honeypot off-screen fix (`clip` pattern instead of `left: -9999px`) — removes false horizontal overflow on contact pages.
+- **akhdaralmaale.space, driftpromotion.space, masmaralsuraa.com, tritonkart.eg**: honeypot off-screen fix (`clip` pattern instead of `left: -9999px`) — removes false horizontal overflow on contact pages.
 - **masmaralsuraa.com**: mobile header CTA hover; wet-cta-band contrast preserved.
 - **tritonkart.eg**: secondary portfolio CTA explicit transparent/blue styling.
 - Re-scan: contact pages no longer inflate `documentElement.scrollWidth`; mobile drawers open correctly via toggle (`.is-open`).
@@ -32,10 +32,10 @@ Sites: **25** | Pages: **425** (17 × 25) | CTA classes inventoried: **560**
 - **FAQ accordion buttons**: `color: var(--color-text-primary)` on `.me79` (alresha), `.ac59` (nileacademy).
 - **Cookie decline**: croquet `.od41`, liberodefense `.ida5d` — readable on dark/light bands.
 - **Hero outline**: liberodefense `.h82` white border/text, solid white fill + ink text on hover; `transition: none` to avoid mid-transition false fails.
-- **melabalnzilaq.eg**: lighter primary tokens + `.lcc768` / `.ibeb4` contrast.
-- **liberodefense.com**: primary indigo darkened (`#6366f1` → `#4f46e5`) for AA with white CTA text.
+- **melabalnzilaq.space**: lighter primary tokens + `.lcc768` / `.ibeb4` contrast.
+- **liberodefense.space**: primary indigo darkened (`#6366f1` → `#4f46e5`) for AA with white CTA text.
 - **aldawaran.online**: `--color-text-on-accent: #ffffff`; primary darkened `#059669` → `#047857` (hover `#065f46`); **header flex overflow** — `.m24c94` / `.i1e91` `min-width: 0`, tighter 1024+ gaps/margins, `.ed8 { overflow-x: clip }` (CTA `.ce4b8` no longer sits at `left: -26`).
-- **croquet-eg.com**: `--color-text-on-accent: #ffffff`; primary darkened `#0d9488` → `#0f766e` (hover `#115e59`).
+- **croquet-eg.space**: `--color-text-on-accent: #ffffff`; primary darkened `#0d9488` → `#0f766e` (hover `#115e59`).
 - **Teal/purple/green accent CTAs** (alresha, strategy-hoop, nilstable, nileacademy, shams-table, etc.): per-class `#ffffff` text + darker fills where mid-tone accents failed AA (~3.5–4.4:1).
 
 ## Sites — page QA
@@ -47,24 +47,24 @@ Sites: **25** | Pages: **425** (17 × 25) | CTA classes inventoried: **560**
 | aldawaran.online | 17/17 | header flex overflow fixed; primary AA |
 | alphadriver.space | 17/17 | html RTL |
 | alresha-academy.space | 17/17 | RTL + FAQ `.me79` + purple CTA white |
-| counterattack.eg | 17/17 | RTL |
-| croquet-eg.com | 17/17 | cookie `.od41`; teal primary AA |
-| driftpromotion.com | 17/17 | honeypot; link-style hero CTAs OK |
+| counterattack.space | 17/17 | RTL |
+| croquet-eg.space | 17/17 | cookie `.od41`; teal primary AA |
+| driftpromotion.space | 17/17 | honeypot; link-style hero CTAs OK |
 | equestrian-care.com | 17/17 | |
 | equestrian-club.com | 17/17 | RTL |
-| equestrian-trail.com | 17/17 | |
-| haraka-risha.com | 17/17 | outline hover colors |
-| liberodefense.com | 17/17 | hero `.h82`, cookie `.ida5d`, palette |
+| equestrian-trail.space | 17/17 | |
+| haraka-risha.space | 17/17 | outline hover colors |
+| liberodefense.space | 17/17 | hero `.h82`, cookie `.ida5d`, palette |
 | malaabtfaradi.info | 17/17 | |
 | masmaralsuraa.com | 17/17 | honeypot + mobile CTA |
-| melabalnzilaq.eg | 17/17 | grey palette + CTA contrast |
-| nileacademy.com | 17/17 | accent CTA colors restored |
-| nilstable.com | 17/17 | |
+| melabalnzilaq.space | 17/17 | grey palette + CTA contrast |
+| nileacademy.space | 17/17 | accent CTA colors restored |
+| nilstable.space | 17/17 | |
 | powerserve.com | 17/17 | RTL |
 | racketpro.com | 17/17 | |
-| rimalshataa.eg | 17/17 | |
-| shams-table.com | 17/17 | |
-| strategy-hoop.com | 17/17 | |
+| rimalshataa.space | 17/17 | |
+| shams-table.space | 17/17 | |
+| strategy-hoop.space | 17/17 | |
 | tritonkart.eg | 17/17 | honeypot + secondary CTA |
 | voltennisacademy.com | 17/17 | RTL |
 
