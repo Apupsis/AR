@@ -62,7 +62,7 @@ Sites: **25** | Pages: **425** (17 × 25) | CTA classes inventoried: **560**
 | nileacademy.space | 17/17 | accent CTA colors restored |
 | nilstable.space | 17/17 | |
 | powerserve.site | 17/17 | RTL |
-| racketpro.com | 17/17 | |
+| racketpro.site | 17/17 | |
 | rimalshataa.space | 17/17 | |
 | shams-table.space | 17/17 | |
 | strategy-hoop.space | 17/17 | |

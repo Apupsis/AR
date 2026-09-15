@@ -2,7 +2,7 @@
 
 Отмечай `[x]`, когда сайт залит на хостинг. Дата и заметки — по желанию.
 
-**Сводка:** deployed **15** / **30**
+**Сводка:** deployed **20** / **30**
 
 
 |     | site                      | part | date | notes |
@@ -16,17 +16,17 @@
 | [x] | driftpromotion.space      | 1    |      | inf-2 |
 | [x] | equestrian-care.space     | 1    |      | inf-2 |
 | [x] | equestrian-club.site      | 1    |      | inf-2 |
-| [ ] | equestrian-trail.space    | 1    |      | inf-1 |
-| [ ] | haraka-risha.space        | 1    |      | inf-1 |
+| [x] | equestrian-trail.space    | 1    |      | inf-1 |
+| [x] | haraka-risha.space        | 1    |      | inf-1 |
 | [x] | hijom-academy.space       | 1    |      | inf-2 |
-| [ ] | liberodefense.space       | 1    |      | inf-1 |
-| [ ] | malaabtfaradi.site        | 1    |      | inf-1 |
-| [ ] | masmaralsuraa.site        | 1    |      | inf-1 |
+| [x] | liberodefense.space       | 1    |      | inf-1 |
+| [x] | malaabtfaradi.site        | 1    |      | inf-1 |
+| [x] | masmaralsuraa.site        | 1    |      | inf-1 |
 | [ ] | melabalnzilaq.space       | 1    |      |       |
 | [ ] | nileacademy.space         | 1    |      |       |
 | [ ] | nilstable.space           | 1    |      |       |
 | [ ] | powerserve.site           | 1    |      |       |
-| [ ] | racketpro.com             | 1    |      |       |
+| [ ] | racketpro.site             | 1    |      |       |
 | [ ] | rimalshataa.space         | 1    |      |       |
 | [ ] | shams-table.space         | 1    |      |       |
 | [ ] | strategy-hoop.space       | 1    |      |       |
