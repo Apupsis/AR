@@ -2,7 +2,7 @@
 
 Отмечай `[x]`, когда сайт залит на хостинг. Дата и заметки — по желанию.
 
-**Сводка:** deployed **20** / **30**
+**Сводка:** deployed **30** / **30**
 
 
 |     | site                      | part | date | notes |
@@ -22,16 +22,16 @@
 | [x] | liberodefense.space       | 1    |      | inf-1 |
 | [x] | malaabtfaradi.site        | 1    |      | inf-1 |
 | [x] | masmaralsuraa.site        | 1    |      | inf-1 |
-| [ ] | melabalnzilaq.space       | 1    |      | TH-1  |
-| [ ] | nileacademy.space         | 1    |      | TH-1  |
-| [ ] | nilstable.space           | 1    |      | TH-1  |
-| [ ] | powerserve.site           | 1    |      | TH-1  |
-| [ ] | racketpro.site             | 1    |      | TH-1  |
-| [ ] | rimalshataa.space         | 1    |      |       |
-| [ ] | shams-table.space         | 1    |      |       |
-| [ ] | strategy-hoop.space       | 1    |      |       |
-| [ ] | tritonkart.site           | 1    |      |       |
-| [ ] | voltennisacademy.site     | 1    |      |       |
+| [x] | melabalnzilaq.space       | 1    |      | TH-1  |
+| [x] | nileacademy.space         | 1    |      | TH-1  |
+| [x] | nilstable.space           | 1    |      | TH-1  |
+| [x] | powerserve.site           | 1    |      | TH-1  |
+| [x] | racketpro.site             | 1    |      | TH-1  |
+| [x] | rimalshataa.space         | 1    |      | zom-2 |
+| [x] | shams-table.space         | 1    |      | zom-2 |
+| [x] | strategy-hoop.space       | 1    |      | zom-2 |
+| [x] | tritonkart.site           | 1    |      | zom-2 |
+| [x] | voltennisacademy.site     | 1    |      | zom-2 |
 | [x] | academy-almohannada.space | 2    |      |       |
 | [x] | academy-backhand.space    | 2    |      |       |
 | [x] | darba-pro.space           | 2    |      |       |
