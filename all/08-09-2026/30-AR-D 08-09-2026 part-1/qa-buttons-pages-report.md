@@ -28,6 +28,7 @@ Sites: **25** | Pages: **425** (17 × 25) | CTA classes inventoried: **560**
 
 ### Obfuscated cohort — targeted
 - **voltennisacademy.site**: `.je75d5:hover` color (prior pass).
+- **hijom-academy.space**: `--color-secondary` `#a855f7` → `#7e22ce` (AA with white); `.f02:hover` + outline hover `text-decoration`; get-started honeypot → `.hijom-honeypot` clip.
 - **Static-risk CTAs**: missing `:hover` rules added (akhdaralmaale mobile CTA, haraka-risha, liberodefense, powerserve outline, racketpro, alphadriver, equestrian-care, masmaralsuraa mobile CTA).
 - **FAQ accordion buttons**: `color: var(--color-text-primary)` on `.me79` (alresha), `.ac59` (nileacademy).
 - **Cookie decline**: croquet `.od41`, liberodefense `.ida5d` — readable on dark/light bands.
@@ -53,7 +54,7 @@ Sites: **25** | Pages: **425** (17 × 25) | CTA classes inventoried: **560**
 | equestrian-club.site | 17/17 | RTL |
 | equestrian-trail.space | 17/17 | |
 | haraka-risha.space | 17/17 | outline hover colors |
-| hijom-academy.space | 17/17 | RTL |
+| hijom-academy.space | 17/17 | secondary AA; honeypot clip; badge hover |
 | liberodefense.space | 17/17 | hero `.h82`, cookie `.ida5d`, palette |
 | malaabtfaradi.info | 17/17 | |
 | masmaralsuraa.site | 17/17 | honeypot + mobile CTA |
