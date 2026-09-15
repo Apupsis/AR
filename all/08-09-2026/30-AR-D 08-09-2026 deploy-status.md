@@ -2,7 +2,7 @@
 
 Отмечай `[x]`, когда сайт залит на хостинг. Дата и заметки — по желанию.
 
-**Сводка:** deployed **10** / **30**
+**Сводка:** deployed **14** / **30**
 
 
 |     | site                      | part | date | notes |
@@ -12,10 +12,10 @@
 | [x] | aldawaran.online          | 1    |      | zom-2 |
 | [x] | alphadriver.space         | 1    |      | zom-2 |
 | [x] | alresha-academy.space     | 1    |      | zom-2 |
-| [ ] | croquet-eg.space          | 1    |      | inf-2 |
-| [ ] | driftpromotion.space      | 1    |      | inf-2 |
-| [ ] | equestrian-care.space     | 1    |      | inf-2 |
-| [ ] | equestrian-club.site      | 1    |      | inf-2 |
+| [x] | croquet-eg.space          | 1    |      | inf-2 |
+| [x] | driftpromotion.space      | 1    |      | inf-2 |
+| [x] | equestrian-care.space     | 1    |      | inf-2 |
+| [x] | equestrian-club.site      | 1    |      | inf-2 |
 | [ ] | equestrian-trail.space    | 1    |      |       |
 | [ ] | haraka-risha.space        | 1    |      |       |
 | [ ] | hijom-academy.space       | 1    |      | inf-2 |
