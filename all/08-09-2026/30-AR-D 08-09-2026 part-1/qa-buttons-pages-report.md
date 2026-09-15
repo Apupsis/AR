@@ -56,7 +56,7 @@ Sites: **25** | Pages: **425** (17 × 25) | CTA classes inventoried: **560**
 | haraka-risha.space | 17/17 | outline hover colors |
 | hijom-academy.space | 17/17 | secondary AA; honeypot; chips; consent row AA |
 | liberodefense.space | 17/17 | hero `.h82`, cookie `.ida5d`, palette |
-| malaabtfaradi.info | 17/17 | |
+| malaabtfaradi.site | 17/17 | |
 | masmaralsuraa.site | 17/17 | honeypot + mobile CTA |
 | melabalnzilaq.space | 17/17 | grey palette + CTA contrast |
 | nileacademy.space | 17/17 | accent CTA colors restored |

@@ -20,7 +20,7 @@
 | [ ] | haraka-risha.space        | 1    |      |       |
 | [ ] | hijom-academy.space       | 1    |      | inf-2 |
 | [ ] | liberodefense.space       | 1    |      |       |
-| [ ] | malaabtfaradi.info        | 1    |      |       |
+| [ ] | malaabtfaradi.site        | 1    |      |       |
 | [ ] | masmaralsuraa.site        | 1    |      |       |
 | [ ] | melabalnzilaq.space       | 1    |      |       |
 | [ ] | nileacademy.space         | 1    |      |       |
