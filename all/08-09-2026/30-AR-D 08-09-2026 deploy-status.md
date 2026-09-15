@@ -2,7 +2,7 @@
 
 Отмечай `[x]`, когда сайт залит на хостинг. Дата и заметки — по желанию.
 
-**Сводка:** deployed **14** / **30**
+**Сводка:** deployed **15** / **30**
 
 
 |     | site                      | part | date | notes |
@@ -16,12 +16,12 @@
 | [x] | driftpromotion.space      | 1    |      | inf-2 |
 | [x] | equestrian-care.space     | 1    |      | inf-2 |
 | [x] | equestrian-club.site      | 1    |      | inf-2 |
-| [ ] | equestrian-trail.space    | 1    |      |       |
-| [ ] | haraka-risha.space        | 1    |      |       |
-| [ ] | hijom-academy.space       | 1    |      | inf-2 |
-| [ ] | liberodefense.space       | 1    |      |       |
-| [ ] | malaabtfaradi.site        | 1    |      |       |
-| [ ] | masmaralsuraa.site        | 1    |      |       |
+| [ ] | equestrian-trail.space    | 1    |      | inf-1 |
+| [ ] | haraka-risha.space        | 1    |      | inf-1 |
+| [x] | hijom-academy.space       | 1    |      | inf-2 |
+| [ ] | liberodefense.space       | 1    |      | inf-1 |
+| [ ] | malaabtfaradi.site        | 1    |      | inf-1 |
+| [ ] | masmaralsuraa.site        | 1    |      | inf-1 |
 | [ ] | melabalnzilaq.space       | 1    |      |       |
 | [ ] | nileacademy.space         | 1    |      |       |
 | [ ] | nilstable.space           | 1    |      |       |
