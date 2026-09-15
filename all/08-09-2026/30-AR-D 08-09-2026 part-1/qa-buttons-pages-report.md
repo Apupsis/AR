@@ -21,13 +21,13 @@ Sites: **25** | Pages: **425** (17 × 25) | CTA classes inventoried: **560**
 - **Hover CTA** (from prior + this pass): explicit `color` + `text-decoration: none` on solid/outline CTAs so global `a:hover` does not wash out text.
 
 ### Semantic cohort (4)
-- **akhdaralmaale.space, driftpromotion.space, masmaralsuraa.com, tritonkart.eg**: honeypot off-screen fix (`clip` pattern instead of `left: -9999px`) — removes false horizontal overflow on contact pages.
-- **masmaralsuraa.com**: mobile header CTA hover; wet-cta-band contrast preserved.
-- **tritonkart.eg**: secondary portfolio CTA explicit transparent/blue styling.
+- **akhdaralmaale.space, driftpromotion.space, masmaralsuraa.site, tritonkart.site**: honeypot off-screen fix (`clip` pattern instead of `left: -9999px`) — removes false horizontal overflow on contact pages.
+- **masmaralsuraa.site**: mobile header CTA hover; wet-cta-band contrast preserved.
+- **tritonkart.site**: secondary portfolio CTA explicit transparent/blue styling.
 - Re-scan: contact pages no longer inflate `documentElement.scrollWidth`; mobile drawers open correctly via toggle (`.is-open`).
 
 ### Obfuscated cohort — targeted
-- **voltennisacademy.com**: `.je75d5:hover` color (prior pass).
+- **voltennisacademy.site**: `.je75d5:hover` color (prior pass).
 - **Static-risk CTAs**: missing `:hover` rules added (akhdaralmaale mobile CTA, haraka-risha, liberodefense, powerserve outline, racketpro, alphadriver, equestrian-care, masmaralsuraa mobile CTA).
 - **FAQ accordion buttons**: `color: var(--color-text-primary)` on `.me79` (alresha), `.ac59` (nileacademy).
 - **Cookie decline**: croquet `.od41`, liberodefense `.ida5d` — readable on dark/light bands.
@@ -56,17 +56,17 @@ Sites: **25** | Pages: **425** (17 × 25) | CTA classes inventoried: **560**
 | hijom-academy.space | 17/17 | RTL |
 | liberodefense.space | 17/17 | hero `.h82`, cookie `.ida5d`, palette |
 | malaabtfaradi.info | 17/17 | |
-| masmaralsuraa.com | 17/17 | honeypot + mobile CTA |
+| masmaralsuraa.site | 17/17 | honeypot + mobile CTA |
 | melabalnzilaq.space | 17/17 | grey palette + CTA contrast |
 | nileacademy.space | 17/17 | accent CTA colors restored |
 | nilstable.space | 17/17 | |
-| powerserve.com | 17/17 | RTL |
+| powerserve.site | 17/17 | RTL |
 | racketpro.com | 17/17 | |
 | rimalshataa.space | 17/17 | |
 | shams-table.space | 17/17 | |
 | strategy-hoop.space | 17/17 | |
-| tritonkart.eg | 17/17 | honeypot + secondary CTA |
-| voltennisacademy.com | 17/17 | RTL |
+| tritonkart.site | 17/17 | honeypot + secondary CTA |
+| voltennisacademy.site | 17/17 | RTL |
 
 ## Button contrast — final
 
