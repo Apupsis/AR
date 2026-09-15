@@ -22,11 +22,11 @@
 | [x] | liberodefense.space       | 1    |      | inf-1 |
 | [x] | malaabtfaradi.site        | 1    |      | inf-1 |
 | [x] | masmaralsuraa.site        | 1    |      | inf-1 |
-| [ ] | melabalnzilaq.space       | 1    |      |       |
-| [ ] | nileacademy.space         | 1    |      |       |
-| [ ] | nilstable.space           | 1    |      |       |
-| [ ] | powerserve.site           | 1    |      |       |
-| [ ] | racketpro.site             | 1    |      |       |
+| [ ] | melabalnzilaq.space       | 1    |      | TH-1  |
+| [ ] | nileacademy.space         | 1    |      | TH-1  |
+| [ ] | nilstable.space           | 1    |      | TH-1  |
+| [ ] | powerserve.site           | 1    |      | TH-1  |
+| [ ] | racketpro.site             | 1    |      | TH-1  |
 | [ ] | rimalshataa.space         | 1    |      |       |
 | [ ] | shams-table.space         | 1    |      |       |
 | [ ] | strategy-hoop.space       | 1    |      |       |
