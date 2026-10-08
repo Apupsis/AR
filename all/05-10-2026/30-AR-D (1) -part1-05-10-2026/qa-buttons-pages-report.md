@@ -22,7 +22,7 @@ Fresh `phase final` without `--from-fails`: full contrast on all pages + visual 
 
 | Pass | Result |
 |------|--------|
-| 1st re-verify | visual/rtl clean; **2** contrast fails — `aynalkhail.com` thank page `.eb23:hover` + `.a6a8.f6d6e8e5:hover` (global `a:hover` wash → same brown as fill) |
+| 1st re-verify | visual/rtl clean; **2** contrast fails — `aynalkhail.space` thank page `.eb23:hover` + `.a6a8.f6d6e8e5:hover` (global `a:hover` wash → same brown as fill) |
 | After CSS | `a.eb23:hover` / `a.f6d6e8e5:hover { color:#fff; text-decoration:none }` |
 | 2nd re-verify | **unique_btn_fails=0**, **page_fails=[]**, **contact_overflow_sites=0** |
 
@@ -60,24 +60,24 @@ Fresh `phase final` without `--from-fails`: full contrast on all pages + visual 
 | Site | Contrast | Visual ok1280 | Notes |
 |------|----------|---------------|-------|
 | academy-grip.site | 0 | 17 | amber AA + CTA hover |
-| ahlyvolley.com | 0 | 17 | blue darken + honeypot |
-| alhojoom.com | 0 | 17 | brown darken + hover |
-| alqemma-sports.com | 0 | 17 | cyan AA + RTL + dark-band white |
-| aynalkhail.com | 0 | 17 | CTA hover + thank `.eb23` / `.f6d6e8e5` |
+| ahlyvolley.space | 0 | 17 | blue darken + honeypot |
+| alhojoom.space | 0 | 17 | brown darken + hover |
+| alqemma-sports.space | 0 | 17 | cyan AA + RTL + dark-band white |
+| aynalkhail.space | 0 | 17 | CTA hover + thank `.eb23` / `.f6d6e8e5` |
 | beach-signals.info | 0 | 17 | purple darken + RTL |
-| croquet-strategy.com | 0 | 17 | rose AA + honeypot + `.l3a` |
-| daqat-resha.com | 0 | 17 | cyan deep AA + honeypot |
-| elite-croquet.com | 0 | 17 | cyan AA + RTL + honeypot |
-| equine-care.com | 0 | 17 | amber AA + RTL |
-| faresalaman.com | 0 | 17 | amber AA + honeypot |
-| gridstart.com | 0 | 17 | indigo AA |
-| gripetrack.com | 0 | 17 | purple AA + RTL |
+| croquet-strategy.space | 0 | 17 | rose AA + honeypot + `.l3a` |
+| daqat-resha.space | 0 | 17 | cyan deep AA + honeypot |
+| elite-croquet.space | 0 | 17 | cyan AA + RTL + honeypot |
+| equine-care.space | 0 | 17 | amber AA + RTL |
+| faresalaman.space | 0 | 17 | amber AA + honeypot |
+| gridstart.space | 0 | 17 | indigo AA |
+| gripetrack.space | 0 | 17 | purple AA + RTL |
 | malaeb-dqi.eg | 0 | 17 | slate + honeypot |
 | pyramidequestrian.eg | 0 | 17 | amber AA + fill overrides |
-| quwwa-risha.com | 0 | 17 | indigo AA + honeypot |
+| quwwa-risha.space | 0 | 17 | indigo AA + honeypot |
 | ribataldarbah.eg | 0 | 17 | pink AA + dark-band links |
-| risha-aldars.com | 0 | 17 | rose AA + hover |
-| sharakaalmadrab.com | 0 | 17 | blue AA + white on-accent + honeypot |
+| risha-aldars.space | 0 | 17 | rose AA + hover |
+| sharakaalmadrab.space | 0 | 17 | blue AA + white on-accent + honeypot |
 | tableacademy.eg | 0 | 17 | amber AA + honeypot |
 
 ## Final gate
