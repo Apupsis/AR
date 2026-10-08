@@ -64,7 +64,7 @@ Fresh `phase final` without `--from-fails`: full contrast on all pages + visual 
 | alhojoom.space | 0 | 17 | brown darken + hover |
 | alqemma-sports.space | 0 | 17 | cyan AA + RTL + dark-band white |
 | aynalkhail.space | 0 | 17 | CTA hover + thank `.eb23` / `.f6d6e8e5` |
-| beach-signals.info | 0 | 17 | purple darken + RTL |
+| beach-signals.site | 0 | 17 | purple darken + RTL |
 | croquet-strategy.space | 0 | 17 | rose AA + honeypot + `.l3a` |
 | daqat-resha.space | 0 | 17 | cyan deep AA + honeypot |
 | elite-croquet.space | 0 | 17 | cyan AA + RTL + honeypot |
@@ -72,13 +72,13 @@ Fresh `phase final` without `--from-fails`: full contrast on all pages + visual 
 | faresalaman.space | 0 | 17 | amber AA + honeypot |
 | gridstart.space | 0 | 17 | indigo AA |
 | gripetrack.space | 0 | 17 | purple AA + RTL |
-| malaeb-dqi.eg | 0 | 17 | slate + honeypot |
-| pyramidequestrian.eg | 0 | 17 | amber AA + fill overrides |
+| malaeb-dqi.site | 0 | 17 | slate + honeypot |
+| pyramidequestrian.site | 0 | 17 | amber AA + fill overrides |
 | quwwa-risha.space | 0 | 17 | indigo AA + honeypot |
-| ribataldarbah.eg | 0 | 17 | pink AA + dark-band links |
+| ribataldarbah.site | 0 | 17 | pink AA + dark-band links |
 | risha-aldars.space | 0 | 17 | rose AA + hover |
 | sharakaalmadrab.space | 0 | 17 | blue AA + white on-accent + honeypot |
-| tableacademy.eg | 0 | 17 | amber AA + honeypot |
+| tableacademy.site | 0 | 17 | amber AA + honeypot |
 
 ## Final gate
 
