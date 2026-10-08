@@ -55,6 +55,7 @@ Fresh `phase final` without `--from-fails`: full contrast on all pages + visual 
 - Hardcoded amber fills (equine `.c8f2`, pyramid `.ab44738` / `.j85`) remapped to `var(--color-primary)` + white
 - **Re-verify residual:** aynalkhail `.eb23` + `.f6d6e8e5` solid CTA hover white (thank page)
 - **Targeted 2026-10-08 (academy-grip):** `.f2039165` / `.l00c.f2039165:hover` white lock (scanner first-class hover gap); fresh `contrast_scan --sites academy-grip.site` → `unique_btn_fails=0`
+- **Pass5 re-verify 2026-10-08 (academy-grip):** full 17-page contrast + manual mouse hover on all CTA classes (`.f7c`/`.f2039165`/`.ge75`/`.n8e`/`.k89da`/`.fae38b3`/`.b3441ff`) → 0 fails; no extra CSS needed
 
 ## Sites (re-verify counters)
 

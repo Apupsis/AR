@@ -7870,7 +7870,12 @@ a.p5c8da:hover, .p5c8da:hover {
 /* === QA residual pass-2 === */
 
 a.ic4, .ic4 { color: #1d4ed8; }
-a.ic4:hover, .ic4:hover { color: #1e3a8a; text-decoration: none; }
+/* outline fills primary on hover — keep white (do not use dark ink on blue fill) */
+a.ic4:hover, .ic4:hover {
+  background-color: #1d4ed8;
+  color: #ffffff;
+  text-decoration: none;
+}
 
 /* === QA pass3: solid multi-class hover wash (beat a:hover) === */
 
@@ -7882,6 +7887,26 @@ a.ab1af:hover, .ab1af:hover,
 a.ae1afd:hover, .ae1afd:hover,
 a.fa443ed.ab1af:hover, a.fa443ed.ae1afd:hover,
 a.lbb7a:hover, .lbb7a:hover {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+/* === QA pass5: outline/secondary CTA hover fill + white === */
+
+a.fa443ed.lbb7a:hover, a.lbb7a:hover, .lbb7a:hover {
+  background: #1d4ed8;
+  background-color: #1d4ed8;
+  color: #ffffff;
+  text-decoration: none;
+}
+a.fa443ed.ja3c:hover, a.ja3c:hover, .ja3c:hover {
+  background: #1d4ed8;
+  background-color: #1d4ed8;
+  color: #ffffff;
+  text-decoration: none;
+}
+a.ic4:hover, .ic4:hover {
+  background-color: #1d4ed8;
   color: #ffffff;
   text-decoration: none;
 }

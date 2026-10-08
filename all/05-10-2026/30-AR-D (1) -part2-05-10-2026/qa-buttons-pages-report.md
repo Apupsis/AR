@@ -47,19 +47,20 @@ Fresh `phase final` without `--from-fails`: full contrast on all pages + visual 
 - Notable classes: elshams `.ifff1` / `.if5`, shaheen `.lf8da` / `.k1f8`, apexride `.c2e7` / `.j9c378`, roquet `.g3b` / `.jc3ea21c` / `.ib70f`, labtime inverted CTAs, FAQ/accordion readable text
 - **Re-verify residual:** drivetable `.k862e036` solid CTA hover white
 - **Targeted 2026-10-08 (alchampions / shaheen):** solid multi-class hover wash locks + shaheen outline `.p10cc4:hover` uses primary fill (not mid-tone `#d4845c`); fresh `contrast_scan --sites` → `unique_btn_fails=0`
+- **Pass5 2026-10-08 (alchampions / shaheen hover text):** outline CTAs that fill on hover had washed ink — alchampions `.lbb7a`/`.ja3c`/`.ic4` → solid `#1d4ed8` + `#fff` (removed residual dark-ink `ic4:hover`); shaheen `.pb59ae`/`.bfb`/`.p10cc4` → solid `#9a3412` + `#fff` (removed `bfb:hover` brown-on-brown). Manual mouse hover verify all CTA classes → 0 fails; `contrast_scan --pages-per-site 17` → `unique_btn_fails=0`
 
 ## Sites (re-verify counters)
 
 | Site | Contrast | Visual ok1280 | Notes |
 |------|----------|---------------|-------|
-| alchampions.space | 0 | 17 | RTL + honeypot + solid multi-class hover white (`.ab1af` / `.ae1afd`) |
+| alchampions.space | 0 | 17 | RTL + honeypot + solid/outline hover white (`.ab1af`/`.ae1afd`/`.lbb7a`/`.ja3c`/`.ic4`) |
 | apexride.space | 0 | 17 | primary AA + outline/solid hover |
 | drivetable.space | 0 | 17 | primary AA + RTL + `.k862e036` hover fix |
 | elshams-training.space | 0 | 17 | sky CTA darken + outline hover |
 | equestrian-arena.space | 0 | 17 | primary AA + FAQ/outline peach |
 | labtime.space | 0 | 17 | primary AA + honeypot + solid CTA |
 | roquet-mastery.space | 0 | 17 | RTL + honeypot + solid white hover |
-| shaheen-sports.space | 0 | 17 | orange CTA AA + honeypot + `.m48e250`/`.e726c74` hover white; `.p10cc4:hover` fill primary |
+| shaheen-sports.space | 0 | 17 | orange CTA AA + honeypot + solid/outline hover white (`.m48e250`/`.e726c74`/`.pb59ae`/`.bfb`/`.p10cc4`) |
 | speed-track.space | 0 | 17 | purple primary AA + glass CTA |
 | starnet-volleyball.space | 0 | 17 | RTL + honeypot + pink CTA hover |
 
