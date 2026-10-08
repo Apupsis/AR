@@ -59,7 +59,7 @@ Fresh `phase final` without `--from-fails`: full contrast on all pages + visual 
 
 | Site | Contrast | Visual ok1280 | Notes |
 |------|----------|---------------|-------|
-| academy-grip.com | 0 | 17 | amber AA + CTA hover |
+| academy-grip.site | 0 | 17 | amber AA + CTA hover |
 | ahlyvolley.com | 0 | 17 | blue darken + honeypot |
 | alhojoom.com | 0 | 17 | brown darken + hover |
 | alqemma-sports.com | 0 | 17 | cyan AA + RTL + dark-band white |
