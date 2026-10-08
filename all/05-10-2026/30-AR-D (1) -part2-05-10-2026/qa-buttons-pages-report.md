@@ -16,6 +16,16 @@ Sites: **10** | Pages: **170** (17 × 10)
 
 Evidence JSON: `_qa-contrast-results.json`, `_qa-visual-results.json`, `_qa-rtl-overflow.json`.
 
+## Re-verify (full, sequential `--workers 1`)
+
+Fresh `phase final` without `--from-fails`: full contrast on all pages + visual full (17×10 @1280) + rtl/contact.
+
+| Pass | Result |
+|------|--------|
+| 1st re-verify | visual/rtl clean; **1** contrast fail — `drivetable.space` `.k862e036:hover` (washed pink on solid) |
+| After CSS | `a.k862e036:hover { color:#fff; text-decoration:none }` |
+| 2nd re-verify | **unique_btn_fails=0**, **page_fails=[]**, **contact_overflow_sites=0** |
+
 ## Fixes applied (CSS only, `public/assets/css/style.css`)
 
 ### Tokens (mid-tone primary → darker + white on-accent)
@@ -35,21 +45,22 @@ Evidence JSON: `_qa-contrast-results.json`, `_qa-visual-results.json`, `_qa-rtl-
 - Solid fills: per-class `a.cls:hover { color:#fff; text-decoration:none }` to beat global `a:hover` wash + `solid_underline`
 - Outline/ghost on dark or light bands: site-specific ink colors (peach on dark equestrian, pink on dark drivetable, purple light on speed-track dark cards, etc.)
 - Notable classes: elshams `.ifff1` / `.if5`, shaheen `.lf8da` / `.k1f8`, apexride `.c2e7` / `.j9c378`, roquet `.g3b` / `.jc3ea21c` / `.ib70f`, labtime inverted CTAs, FAQ/accordion readable text
+- **Re-verify residual:** drivetable `.k862e036` solid CTA hover white
 
-## Sites
+## Sites (re-verify counters)
 
-| Site | Contrast | Visual | Notes |
-|------|----------|--------|-------|
-| alchampions.space | 0 | 0 | RTL + honeypot + CTA hover |
-| apexride.space | 0 | 0 | primary AA + outline/solid hover |
-| drivetable.space | 0 | 0 | primary AA + RTL + inverted CTA |
-| elshams-training.space | 0 | 0 | sky CTA darken + outline hover |
-| equestrian-arena.space | 0 | 0 | primary AA + FAQ/outline peach |
-| labtime.space | 0 | 0 | primary AA + honeypot + solid CTA |
-| roquet-mastery.space | 0 | 0 | RTL + honeypot + solid white hover |
-| shaheen-sports.space | 0 | 0 | orange CTA AA + honeypot |
-| speed-track.space | 0 | 0 | purple primary AA + glass CTA |
-| starnet-volleyball.space | 0 | 0 | RTL + honeypot + pink CTA hover |
+| Site | Contrast | Visual ok1280 | Notes |
+|------|----------|---------------|-------|
+| alchampions.space | 0 | 17 | RTL + honeypot + CTA hover |
+| apexride.space | 0 | 17 | primary AA + outline/solid hover |
+| drivetable.space | 0 | 17 | primary AA + RTL + `.k862e036` hover fix |
+| elshams-training.space | 0 | 17 | sky CTA darken + outline hover |
+| equestrian-arena.space | 0 | 17 | primary AA + FAQ/outline peach |
+| labtime.space | 0 | 17 | primary AA + honeypot + solid CTA |
+| roquet-mastery.space | 0 | 17 | RTL + honeypot + solid white hover |
+| shaheen-sports.space | 0 | 17 | orange CTA AA + honeypot |
+| speed-track.space | 0 | 17 | purple primary AA + glass CTA |
+| starnet-volleyball.space | 0 | 17 | RTL + honeypot + pink CTA hover |
 
 ## Final gate
 

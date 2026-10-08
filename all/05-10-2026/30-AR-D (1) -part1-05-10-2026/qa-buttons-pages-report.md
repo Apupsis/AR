@@ -16,6 +16,16 @@ Sites: **20** | Pages: **340** (17 × 20)
 
 Evidence JSON: `_qa-contrast-results.json`, `_qa-visual-results.json`, `_qa-rtl-overflow.json`.
 
+## Re-verify (full, sequential `--workers 1`)
+
+Fresh `phase final` without `--from-fails`: full contrast on all pages + visual full (17×20 @1280) + rtl/contact.
+
+| Pass | Result |
+|------|--------|
+| 1st re-verify | visual/rtl clean; **2** contrast fails — `aynalkhail.com` thank page `.eb23:hover` + `.a6a8.f6d6e8e5:hover` (global `a:hover` wash → same brown as fill) |
+| After CSS | `a.eb23:hover` / `a.f6d6e8e5:hover { color:#fff; text-decoration:none }` |
+| 2nd re-verify | **unique_btn_fails=0**, **page_fails=[]**, **contact_overflow_sites=0** |
+
 ## Fixes applied (CSS only, `public/assets/css/style.css`)
 
 ### Tokens (mid-tone primary → darker + white on-accent)
@@ -43,31 +53,32 @@ Evidence JSON: `_qa-contrast-results.json`, `_qa-visual-results.json`, `_qa-rtl-
 - Outline on dark bands: force `#ffffff` (alqemma / daqat / gripetrack / ribatal / elite)
 - Outline on light bands: dark ink / darkened primary (croquet `.l3a`, quwwa `.ia477086`, FAQ links)
 - Hardcoded amber fills (equine `.c8f2`, pyramid `.ab44738` / `.j85`) remapped to `var(--color-primary)` + white
+- **Re-verify residual:** aynalkhail `.eb23` + `.f6d6e8e5` solid CTA hover white (thank page)
 
-## Sites
+## Sites (re-verify counters)
 
-| Site | Contrast | Visual | Notes |
-|------|----------|--------|-------|
-| academy-grip.com | 0 | 0 | amber AA + CTA hover |
-| ahlyvolley.com | 0 | 0 | blue darken + honeypot |
-| alhojoom.com | 0 | 0 | brown darken + hover |
-| alqemma-sports.com | 0 | 0 | cyan AA + RTL + dark-band white |
-| aynalkhail.com | 0 | 0 | CTA hover |
-| beach-signals.info | 0 | 0 | purple darken + RTL |
-| croquet-strategy.com | 0 | 0 | rose AA + honeypot + `.l3a` |
-| daqat-resha.com | 0 | 0 | cyan deep AA + honeypot |
-| elite-croquet.com | 0 | 0 | cyan AA + RTL + honeypot |
-| equine-care.com | 0 | 0 | amber AA + RTL |
-| faresalaman.com | 0 | 0 | amber AA + honeypot |
-| gridstart.com | 0 | 0 | indigo AA |
-| gripetrack.com | 0 | 0 | purple AA + RTL |
-| malaeb-dqi.eg | 0 | 0 | slate + honeypot |
-| pyramidequestrian.eg | 0 | 0 | amber AA + fill overrides |
-| quwwa-risha.com | 0 | 0 | indigo AA + honeypot |
-| ribataldarbah.eg | 0 | 0 | pink AA + dark-band links |
-| risha-aldars.com | 0 | 0 | rose AA + hover |
-| sharakaalmadrab.com | 0 | 0 | blue AA + white on-accent + honeypot |
-| tableacademy.eg | 0 | 0 | amber AA + honeypot |
+| Site | Contrast | Visual ok1280 | Notes |
+|------|----------|---------------|-------|
+| academy-grip.com | 0 | 17 | amber AA + CTA hover |
+| ahlyvolley.com | 0 | 17 | blue darken + honeypot |
+| alhojoom.com | 0 | 17 | brown darken + hover |
+| alqemma-sports.com | 0 | 17 | cyan AA + RTL + dark-band white |
+| aynalkhail.com | 0 | 17 | CTA hover + thank `.eb23` / `.f6d6e8e5` |
+| beach-signals.info | 0 | 17 | purple darken + RTL |
+| croquet-strategy.com | 0 | 17 | rose AA + honeypot + `.l3a` |
+| daqat-resha.com | 0 | 17 | cyan deep AA + honeypot |
+| elite-croquet.com | 0 | 17 | cyan AA + RTL + honeypot |
+| equine-care.com | 0 | 17 | amber AA + RTL |
+| faresalaman.com | 0 | 17 | amber AA + honeypot |
+| gridstart.com | 0 | 17 | indigo AA |
+| gripetrack.com | 0 | 17 | purple AA + RTL |
+| malaeb-dqi.eg | 0 | 17 | slate + honeypot |
+| pyramidequestrian.eg | 0 | 17 | amber AA + fill overrides |
+| quwwa-risha.com | 0 | 17 | indigo AA + honeypot |
+| ribataldarbah.eg | 0 | 17 | pink AA + dark-band links |
+| risha-aldars.com | 0 | 17 | rose AA + hover |
+| sharakaalmadrab.com | 0 | 17 | blue AA + white on-accent + honeypot |
+| tableacademy.eg | 0 | 17 | amber AA + honeypot |
 
 ## Final gate
 
