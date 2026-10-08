@@ -54,12 +54,13 @@ Fresh `phase final` without `--from-fails`: full contrast on all pages + visual 
 - Outline on light bands: dark ink / darkened primary (croquet `.l3a`, quwwa `.ia477086`, FAQ links)
 - Hardcoded amber fills (equine `.c8f2`, pyramid `.ab44738` / `.j85`) remapped to `var(--color-primary)` + white
 - **Re-verify residual:** aynalkhail `.eb23` + `.f6d6e8e5` solid CTA hover white (thank page)
+- **Targeted 2026-10-08 (academy-grip):** `.f2039165` / `.l00c.f2039165:hover` white lock (scanner first-class hover gap); fresh `contrast_scan --sites academy-grip.site` → `unique_btn_fails=0`
 
 ## Sites (re-verify counters)
 
 | Site | Contrast | Visual ok1280 | Notes |
 |------|----------|---------------|-------|
-| academy-grip.site | 0 | 17 | amber AA + CTA hover |
+| academy-grip.site | 0 | 17 | amber AA + `.f2039165` multi-class hover white (beat `a:hover` wash) |
 | ahlyvolley.space | 0 | 17 | blue darken + honeypot |
 | alhojoom.space | 0 | 17 | brown darken + hover |
 | alqemma-sports.space | 0 | 17 | cyan AA + RTL + dark-band white |
