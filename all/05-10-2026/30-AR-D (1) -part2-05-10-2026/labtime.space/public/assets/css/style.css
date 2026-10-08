@@ -10,8 +10,8 @@
   --color-text-secondary: #075985;
   --color-text-muted: #3e697e;
 
-  --color-primary: #0284c7;
-  --color-primary-hover: #0369a1;
+  --color-primary: #0369a1;
+  --color-primary-hover: #075985;
   --color-primary-light: #cff0ff;
   --color-secondary: #38bdf8;
   --color-secondary-light: #e0f7ff;
@@ -73,7 +73,7 @@
   --color-primary-dark: var(--color-accent-dark);
   --color-accent-light: var(--color-primary-light);
   --color-secondary-hover: var(--color-secondary-light);
-  --color-text-on-accent: #111418;
+  --color-text-on-accent: #ffffff;
 }
 
 * {
@@ -8433,4 +8433,100 @@ input,textarea,select{
 /* FIX:toggle-expand .baf25374 */
 .baf25374[aria-expanded="true"]{
   display: none;
+}
+
+/* === QA batch contrast/rtl/honeypot === */
+
+/* honeypot: clip instead of off-screen */
+[aria-hidden="true"][style*="-9999"] {
+  position: absolute !important;
+  width: 1px !important;
+  height: 1px !important;
+  padding: 0 !important;
+  margin: -1px !important;
+  overflow: hidden !important;
+  clip: rect(0, 0, 0, 0) !important;
+  white-space: nowrap !important;
+  border: 0 !important;
+  left: 0 !important;
+  top: 0 !important;
+}
+
+
+a.ccd32, .ccd32,
+a.j658, .j658,
+a.gecc, .gecc {
+  color: #ffffff;
+  background-color: var(--color-primary);
+}
+a.ccd32:hover, .ccd32:hover,
+a.j658:hover, .j658:hover,
+a.gecc:hover, .gecc:hover {
+  color: #ffffff;
+  background-color: var(--color-primary-hover);
+  text-decoration: none;
+}
+a.g71, .g71 {
+  color: #075985;
+}
+a.g71:hover, .g71:hover {
+  color: #0c4a6e;
+  text-decoration: none;
+}
+a.o77:hover, .o77:hover {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+/* solid CTA hover: beat global a:hover */
+a.a1cae2:hover, .a1cae2:hover {
+  color: #ffffff;
+  text-decoration: none;
+}
+a.ccd32:hover, .ccd32:hover {
+  color: #ffffff;
+  text-decoration: none;
+}
+a.db53:hover, .db53:hover {
+  color: #ffffff;
+  text-decoration: none;
+}
+a.e29f90:hover, .e29f90:hover {
+  color: #ffffff;
+  text-decoration: none;
+}
+a.gecc:hover, .gecc:hover {
+  color: #ffffff;
+  text-decoration: none;
+}
+a.h99:hover, .h99:hover {
+  color: #ffffff;
+  text-decoration: none;
+}
+a.j658:hover, .j658:hover {
+  color: #ffffff;
+  text-decoration: none;
+}
+a.le03b3:hover, .le03b3:hover {
+  color: #ffffff;
+  text-decoration: none;
+}
+a.m1e:hover, .m1e:hover {
+  color: #ffffff;
+  text-decoration: none;
+}
+a.o77:hover, .o77:hover {
+  color: #ffffff;
+  text-decoration: none;
+}
+a.o89:hover, .o89:hover {
+  color: #ffffff;
+  text-decoration: none;
+}
+a.p3a4046:hover, .p3a4046:hover {
+  color: #ffffff;
+  text-decoration: none;
+}
+a.g71:hover, .g71:hover {
+  text-decoration: none;
 }
