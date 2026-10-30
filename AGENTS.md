@@ -49,3 +49,9 @@ Project rules under `.cursor/rules/` add hard constraints; the skill owns comman
 - Visual `page_fails=[]` (full mode on final)
 - RTL / contact overflow clean
 - `qa-*-report.md` synced to latest JSON when shipping a batch claim
+
+## Cursor Cloud specific instructions
+
+Cloud Agent images install the QA toolchain from `.cursor/skills/auditing-landing-batch-pages-buttons/requirements.txt`: user-site `pip`, `python3 -m playwright install chromium`, and `python3 -m playwright install-deps chromium`. The `playwright` CLI is on `/usr/local/bin`. There is no boot-time dev server; each scanner starts `python3 -m http.server` for the site under test.
+
+Run scans from the repo root with the project skill (`run_batch_qa.py --phase scan`, then `final`). Do not commit probe JSON.
