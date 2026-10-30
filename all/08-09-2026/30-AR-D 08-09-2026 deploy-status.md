@@ -4,7 +4,6 @@
 
 **Сводка:** deployed **30** / **30**
 
-
 |     | site                      | part | date | notes |
 | --- | ------------------------- | ---- | ---- | ----- |
 | [x] | academyelnahm.site        | 1    |      | zom-2 |
@@ -26,7 +25,7 @@
 | [x] | nileacademy.space         | 1    |      | TH-1  |
 | [x] | nilstable.space           | 1    |      | TH-1  |
 | [x] | powerserve.site           | 1    |      | TH-1  |
-| [x] | racketpro.site             | 1    |      | TH-1  |
+| [x] | racketpro.site            | 1    |      | TH-1  |
 | [x] | rimalshataa.space         | 1    |      | zom-2 |
 | [x] | shams-table.space         | 1    |      | zom-2 |
 | [x] | strategy-hoop.space       | 1    |      | zom-2 |
@@ -37,5 +36,3 @@
 | [x] | darba-pro.space           | 2    |      |       |
 | [x] | eliteendurance.space      | 2    |      |       |
 | [x] | loob-elgezira.space       | 2    |      |       |
-
-

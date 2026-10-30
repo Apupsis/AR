@@ -24,14 +24,19 @@ Do **not** invent batch-local `_qa_*.py` scanners. Do **not** HTML-edit for colo
 
 ## QA routing (pages & buttons)
 
-Use Cursor skill **`auditing-landing-batch-pages-buttons`** (user skills dir):
+Use the project skill **`auditing-landing-batch-pages-buttons`** (`.cursor/skills/auditing-landing-batch-pages-buttons/`):
 
 ```bash
-SKILL=~/.cursor/skills/auditing-landing-batch-pages-buttons/scripts
-# Windows: %USERPROFILE%\.cursor\skills\auditing-landing-batch-pages-buttons\scripts
+SKILL=.cursor/skills/auditing-landing-batch-pages-buttons/scripts
 
 python "$SKILL/run_batch_qa.py" --batch "/path/to/… part-1" --phase scan --workers 4
 python "$SKILL/run_batch_qa.py" --batch "/path/to/… part-1" --phase final --workers 4
+```
+
+Windows, from the repo root:
+
+```powershell
+python .cursor\skills\auditing-landing-batch-pages-buttons\scripts\run_batch_qa.py --batch "..." --phase scan --workers 4
 ```
 
 Phases: `scan` (fast visual spot) → fix CSS → `final` (full contrast + visual + rtl) until clean.
