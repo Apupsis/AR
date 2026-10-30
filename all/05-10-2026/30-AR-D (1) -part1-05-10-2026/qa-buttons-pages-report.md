@@ -54,18 +54,20 @@ Fresh `phase final` without `--from-fails`: full contrast on all pages + visual 
 - Outline on light bands: dark ink / darkened primary (croquet `.l3a`, quwwa `.ia477086`, FAQ links)
 - Hardcoded amber fills (equine `.c8f2`, pyramid `.ab44738` / `.j85`) remapped to `var(--color-primary)` + white
 - **Re-verify residual:** aynalkhail `.eb23` + `.f6d6e8e5` solid CTA hover white (thank page)
+- **Pass 2026-10-22 (aynalkhail `.d0bbafa`):** settled hover was brown `#7c2d12` on the same fill (`a:hover` wash). White lock on `.d0bbafa` `.e45ea1b` `.ld2a7d9` `.of5a9` `.m67`. contrast_scan `unique_btn_fails=0`; settled probe `.d0bbafa` ratio 9.37.
 - **Targeted 2026-10-08 (academy-grip):** `.f2039165` / `.l00c.f2039165:hover` white lock (scanner first-class hover gap); fresh `contrast_scan --sites academy-grip.site` → `unique_btn_fails=0`
 - **Pass5 re-verify 2026-10-08 (academy-grip):** full 17-page contrast + manual mouse hover on all CTA classes (`.f7c`/`.f2039165`/`.ge75`/`.n8e`/`.k89da`/`.fae38b3`/`.b3441ff`) → 0 fails; no extra CSS needed
+- **Pass6 2026-10-22 (academy-grip):** settled hover (transition off) showed brown-on-brown on solid links the 40ms scanner missed (`.h2e` `.m0c22` `.f32865` `.l8d64c` `.eb72` `.lb28e` `.o21a4` `.n91`, plus `.fb87fb`). White lock on those hovers. `contrast_scan` `unique_btn_fails=0`; settled probe 17 pages / 34 CTAs → 0 fails.
 
 ## Sites (re-verify counters)
 
 | Site | Contrast | Visual ok1280 | Notes |
 |------|----------|---------------|-------|
-| academy-grip.site | 0 | 17 | amber AA + `.f2039165` multi-class hover white (beat `a:hover` wash) |
+| academy-grip.site | 0 | 17 | amber AA + pass6 white lock on solid link hovers (`.h2e` `.m0c22` `.f32865` `.l8d64c` `.eb72` `.lb28e` `.o21a4` `.n91`) |
 | ahlyvolley.space | 0 | 17 | blue darken + honeypot |
 | alhojoom.space | 0 | 17 | brown darken + hover |
 | alqemma-sports.space | 0 | 17 | cyan AA + RTL + dark-band white |
-| aynalkhail.space | 0 | 17 | CTA hover + thank `.eb23` / `.f6d6e8e5` |
+| aynalkhail.space | 0 | 17 | CTA hover + `.d0bbafa` / `.e45ea1b` / `.ld2a7d9` / `.of5a9` / `.m67` white lock |
 | beach-signals.site | 0 | 17 | purple darken + RTL |
 | croquet-strategy.space | 0 | 17 | rose AA + honeypot + `.l3a` |
 | daqat-resha.space | 0 | 17 | cyan deep AA + honeypot |
